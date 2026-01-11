@@ -92,11 +92,11 @@ jobs:
         run: |
           # Define artifact names and their corresponding output variables
           declare -A ARTIFACTS=(
-            ["PixelFlasher.exe Artifacts"]="build_windows"
-            ["PixelFlasher-ARM64.exe Artifacts"]="build_windows_arm64"
-            ["PixelFlasher_Ubuntu_22_04 Artifacts"]="build_ubuntu_22_04"
-            ["PixelFlasher_Ubuntu_24_04 Artifacts"]="build_ubuntu_24_04"
-            ["PixelFlasher_MacOS.dmg Artifacts"]="build_mac"
+            # ["PixelFlasher.exe Artifacts"]="build_windows"
+            # ["PixelFlasher-ARM64.exe Artifacts"]="build_windows_arm64"
+            # ["PixelFlasher_Ubuntu_22_04 Artifacts"]="build_ubuntu_22_04"
+            # ["PixelFlasher_Ubuntu_24_04 Artifacts"]="build_ubuntu_24_04"
+            # ["PixelFlasher_MacOS.dmg Artifacts"]="build_mac"
             ["PixelFlasher-x86_64.AppImage Artifacts"]="build_appimage"
           )
 
