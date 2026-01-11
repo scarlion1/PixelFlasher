@@ -157,7 +157,7 @@ jobs:
           HERE="\$(dirname "\$(readlink -f "\$0")")"
           export PATH="\$HERE/usr/bin:\$PATH"
           export LD_LIBRARY_PATH="\$HERE/usr/lib:\$HERE/usr/lib/x86_64-linux-gnu:\$LD_LIBRARY_PATH"
-		  export GIO_MODULE_DIR=""
+          export GIO_MODULE_DIR=""
           exec "\$HERE/usr/bin/PixelFlasher" "\$@"
           EOF
           chmod +x AppDir/AppRun
