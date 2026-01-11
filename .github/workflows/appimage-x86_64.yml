@@ -174,7 +174,7 @@ jobs:
         run: |
           # Create AppImage # comment out using --appimage-extract-and-run to avoid FUSE dependency
           mkdir -p dist
-		  UPDATE_INFO="gh-releases-zsync|scarlion1|PixelFlasher|latest|PixelFlasher-x86_64.AppImage.zsync"
+          UPDATE_INFO="gh-releases-zsync|scarlion1|PixelFlasher|latest|PixelFlasher-x86_64.AppImage.zsync"
           ARCH=x86_64 ./appimagetool.AppImage AppDir dist/PixelFlasher-x86_64.AppImage
 
           # Generate SHA256 checksum
@@ -192,4 +192,4 @@ jobs:
           path: |
             dist/PixelFlasher-x86_64.AppImage
             dist/PixelFlasher-x86_64.AppImage.sha256
-			dist/PixelFlasher-x86_64.AppImage.zsync
+            dist/PixelFlasher-x86_64.AppImage.zsync
